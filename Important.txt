@@ -1,0 +1,15 @@
+Make sure the computer network is set to shared
+
+Put these folders in your htdocs folder for XAMPP server
+
+
+Change Apache config file - open "httpd.conf"
+Change access to directory htdocs
+"Allow from all" instead of "Deny from all"
+To access this computer, simply write the computer's ip in your browser
+
+
+Go to "php.ini" and set the following
+max_execution_time
+max_input_time
+upload_max_filesize
