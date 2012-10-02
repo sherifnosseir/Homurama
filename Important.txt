@@ -1,15 +1,30 @@
-Make sure the computer network is set to shared
+First you need to download XAMPP
+http://www.apachefriends.org/en/xampp.html
 
-Put these folders in your htdocs folder for XAMPP server
+After installation.
+Put uploadify and shared space folders in your htdocs folder for XAMPP server
 
-
-Change Apache config file - open "httpd.conf"
+Then...
+In your XAMPP directory
+open "httpd.conf"
 Change access to directory htdocs
 "Allow from all" instead of "Deny from all"
 To access this computer, simply write the computer's ip in your browser
 
-
+In your XAMPP directory
 Go to "php.ini" and set the following
 max_execution_time
 max_input_time
 upload_max_filesize
+
+
+That's it, you're done :)
+Enjoy and Thanks for downloading
+
+How to check:
+On local Machine: go to browser and type "localhost" in the address bar
+On Another Machine: go to browser and type the ip of laptop
+
+NOTE!
+If you can't connect:
+Make sure the computer network is sharing is on
